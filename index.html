@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Booktory</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="header">
+        <div class="container nav">
+          <div class="logo">Booktory</div>
+          <div class="menu-toggle" onclick="mobileCategoryToggle()">
+            <img
+              src="./assets/icons/hamburger-menu.svg"
+              alt="menu-togle"
+              class="menu-icon"
+            />
+          </div>
+
+          <div class="category">
+            <a href="#" class="category-link">Best Seller</a>
+            <a href="#" class="category-link">New Arrival</a>
+            <a href="#" class="category-link">Comming Soon</a>
+          </div>
+        </div>
+        <div class="mobile-category" id="mobile-category">
+          <a href="#" class="category-link">Best Seller</a>
+          <a href="#" class="category-link">New Arrival</a>
+          <a href="#" class="category-link">Comming Soon</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="container">
+          <div class="slide" id="slide">
+            <!-- data will be poopulated by ajax -->
+          </div>
+          <div class="desc" id="desc">
+            <!-- data will be poopulated by ajax -->
+          </div>
+          <div class="social-media">
+            <a href="#">
+              <img
+                src="./assets/icons/facebook.png"
+                alt="facebook-icon"
+                class="social-media-icon"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./assets/icons/instagram.png"
+                alt="instagram-icon"
+                class="social-media-icon"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./assets/icons/twitter.png"
+                alt="twitter-icon"
+                class="social-media-icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

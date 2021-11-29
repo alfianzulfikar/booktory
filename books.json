@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Online Business",
+    "author": "May Magana",
+    "image": "book-1.png"
+  },
+  {
+    "title": "Book of Author 2021",
+    "author": "Alanis Jaramillo",
+    "image": "book-2.png"
+  },
+  {
+    "title": "Wordpres 2021",
+    "author": "Sonnie Stout",
+    "image": "book-3.png"
+  },
+  {
+    "title": "Kids",
+    "author": "Vicki Mitchell",
+    "image": "book-4.png"
+  },
+  {
+    "title": "Sell Book",
+    "author": "Kelsey Stubbs",
+    "image": "book-5.png"
+  }
+]
